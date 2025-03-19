@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #BDBDBD;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #00796b;
+    color: #fff;
+}
+
+.pantalla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #009688;
+}
+
+.pantalla__UI {
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2dfdb;
+    font-weight: 600;
+    color: #212121;
+}
+
+.butacas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.butacas__filas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.butacas__filas__UI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.butacas__filas__UI > div {
+    background-color: #ffc107;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butacas__filas__UI > div:hover {
+    background-color: #009688;
+    cursor: pointer;
+}
+
+div .butacas__filas__UI-active {
+    background-color: #009688;
+}
+
+.reserva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.reserva > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.reserva > label > input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #00796b;
+}
+
+.reserva > label > input:focus {
+    outline: 1px solid #00796b;
+}
+
+.reserva__button {
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 1px solid #00796b;
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.reserva__button:hover {
+    background-color: #004d40;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #00796b;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
